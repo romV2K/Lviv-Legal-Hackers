@@ -64,6 +64,49 @@ strong{
      margin: 5% 20% 5% 20%;
      font-size: 20px;
 }
+
+.photo-lviv-legal-hackers{
+     width: ;
+}
+.photo-lviv-legal-hackers>img{
+width: 100%;
+height: auto;
+position: absolute;
+z-index: 0;
+}
+
+.black-text-box{
+     color: white;
+     width: 400px;
+     height: auto;
+     background-color: black;
+     padding: 20px;
+     position: relative;
+     z-index: 1;
+     left:50%;
+     top:85%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media (max-width:990px){
      .nav-item>a{
           color: rgb(0, 0, 0) !important;
