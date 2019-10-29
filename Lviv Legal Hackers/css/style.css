@@ -30,8 +30,8 @@ ul>li>a{
 
 .collaps-items-set-middle{
      display: flex;
-    justify-content: center;
-    align-items: center;
+     justify-content: center;
+     align-items: center;
 }
 
 .main-text>h6{
@@ -66,7 +66,7 @@ strong{
 }
 
 .photo-lviv-legal-hackers{
-     width: ;
+
 }
 .photo-lviv-legal-hackers>img{
 width: 100%;
@@ -84,10 +84,13 @@ z-index: 0;
      position: relative;
      z-index: 1;
      left:50%;
-     top:85%;
+     top:60%;
 }
 
-
+hr{
+     margin:3% 10% 5% 10%;
+     border-top: 1px solid rgb(194, 194, 194);
+}
 
 
 

@@ -29,8 +29,8 @@ if (x.matches) {
 let imgW;
 let imgH;
 function findWH(){
-     imgW=document.querySelector('#lviv-photo').naturalWidth;
-     imgH=document.querySelector('#lviv-photo').naturalHeight;
+     imgW=document.querySelector('#lviv-photo').width;
+     imgH=document.querySelector('#lviv-photo').height;
      console.log('width='+imgW, 'height='+ imgH)
      $('.photo-lviv-legal-hackers').css({'height': imgH })
 }
