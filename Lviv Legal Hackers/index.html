@@ -10,32 +10,106 @@
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
   <!-- Bootstrap core CSS -->
   <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+
   <!-- Material Design Bootstrap -->
   <link href="css/mdb.min.css" rel="stylesheet">
   <!-- Your custom styles (optional) -->
-  <link href="css/style.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Fira+Code:400,500,600,700,800,900&display=swap" rel="stylesheet">
 </head>
 
 <body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark color fixed-top scrolling-navbar ">
+    
+      <div class="brand-block">
+        <a class="brand" href="#">
+          <img src="/Lviv Legal Hackers/img/LHS-bold_light.png" alt="">
+        </a>
+      </div>
 
-  <!-- Start your project here-->
-  <div style="height: 100vh">
-    <div class="flex-center flex-column">
+    
+    
+      <div>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav"
+        aria-controls="basicExampleNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+    
+      <div class="collapse navbar-collapse" id="basicExampleNav">
+        <ul id="navbar-collapse-items" class="navbar-nav ml-auto ">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Головна
+                <span class="sr-only">(current)</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a  class="nav-link" href="#">Заходи</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Партнери</a>
+            </li>
+          <ul class="d-flex social-buttons" type="none">
+              <li class="nav-item">
+                <a class="nav-link" href="#"><i class="fab fa-facebook"></i></a>
+              </li>
+                <li class="nav-item">
+                <a class="nav-link" href="#"><i class="fab fa-twitter"></i> </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"><i class="fab fa-youtube"></i> </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"><i class="fab fa-instagram"></i></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"><i class="fab fa-telegram"></i></a>
+              </li>
+          </ul>
+        <li class="nav-item">
+          <a class="nav-link" href="#">En</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Ua</a>
+        </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
 
-      <h1 class="text-hide animated fadeIn mb-4"
-        style="background-image: url('https://mdbootstrap.com/img/logo/mdb-transparent-250px.png'); width: 250px; height: 90px;">
-        MDBootstrap</h1>
-      <h5 class="animated fadeIn mb-3">Thank you for using our product. We're glad you're with us.</h5>
+  <main>
+    <div class="view">
+      <video class="embed-responsive embed-responsive-16by9" src="/Lviv Legal Hackers/img/Legal_Hackers_Networking_Party.mp4" loop muted autoplay="autoplay"></video>
+        <div class="main-text mask rgba-black-strong d-flex justify-content-center align-items-center flex-column" >
+          <h6 class="">
+            LVIV LEGAL HACKERS
+          </h6>
 
-      <p class="animated fadeIn text-muted">MDB Team</p>
-      <button class="btn btn-elegant">test</button>
-      <button type="button" class="btn btn-default">Default</button>
+          <h1 class="">
+              Спільнота на межі<br> 
+              права та технологій
+          </h1>
+
+          <h3 class="">
+              We are explorers. We are doers. We are Legal Hackers.
+          </h3>
+        </div>
     </div>
-  </div>
-  <!-- Start your project here-->
+    <div class="d-flex what-is justify-content-center align-items-center flex-column">
+      <p >
+        <strong>Legal Hackers</strong> - це глобальна спільнота юристів, технологів та вчених, в більш ніж 150 містах світу, які вивчають та розробляють творчі рішення з найбільш гострих проблем на межі права та технологій.
+      </p>
+      <p>
+        За допомогою проведення зустрічей, хакатонів і семінарів, «Legal Hackers» виявляють проблеми і можливості, за яких технології можуть покращити доступ до правосуддя, а також, де юридична практика та законодавство можуть адаптуватися до технологій.
+      </p>
+    </div>
+  </main>
 
-  <!-- SCRIPTS -->
-  <!-- JQuery -->
+  <footer>
+
+  </footer>
+
   <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
   <!-- Bootstrap tooltips -->
   <script type="text/javascript" src="js/popper.min.js"></script>
@@ -43,6 +117,7 @@
   <script type="text/javascript" src="js/bootstrap.min.js"></script>
   <!-- MDB core JavaScript -->
   <script type="text/javascript" src="js/mdb.min.js"></script>
+  <script src="js/script.js"></script>
 </body>
 
 </html>
