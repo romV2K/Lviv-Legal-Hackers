@@ -66,12 +66,10 @@ strong{
 }
 
 .photo-lviv-legal-hackers{
-
+     position: relative;
 }
 .photo-lviv-legal-hackers>img{
 width: 100%;
-height: auto;
-position: absolute;
 z-index: 0;
 }
 
@@ -81,15 +79,36 @@ z-index: 0;
      height: auto;
      background-color: black;
      padding: 20px;
-     position: relative;
+     position: absolute;
      z-index: 1;
      left:50%;
      top:60%;
 }
 
-hr{
-     margin:3% 10% 5% 10%;
-     border-top: 1px solid rgb(194, 194, 194);
+.d-block {
+     margin: 0 auto;
+     width: 60%;
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+     background-image: none;
+}
+
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 55px;
+  color: black;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 55px;
+  color: black;
+}
+
+#carouselExampleControls {
+     margin-top: 20px;
 }
 
 
@@ -114,6 +133,10 @@ hr{
      .nav-item>a{
           color: rgb(0, 0, 0) !important;
      }
+     .black-text-box{
+          left:40%;
+          top:50%;
+     }
 }
 
 @media (max-width:720px){
@@ -123,6 +146,10 @@ hr{
      }
      .main-text>h3{
           font-size: 15px;
+     }
+     .black-text-box{
+          left:20%;
+          top:30%;
      }
 }
 
@@ -137,6 +164,10 @@ hr{
      }
      .main-text>h6{
           margin-bottom: 0px;
+     }
+     .black-text-box{
+          left:10%;
+          top:15%;
      }
 }
 
