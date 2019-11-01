@@ -110,6 +110,72 @@ hr{
      color: black;
 }
 
+.organizers{
+     margin-top: 10%;
+}
+.organizers>h1{
+     font-family: 'Fira Code', monospace;
+     color: black;
+     text-align: center;
+     letter-spacing: 3.2px;
+}
+
+
+.organizers-grid{
+     margin: 5% 10% 5% 10%;
+     display: grid;
+     grid-template-columns: repeat(auto-fit, minmax(270px,1fr)) ;
+     grid-gap: 1.5vw;
+     justify-content: center;
+     
+
+}
+
+
+.organizer-card{
+     /* border: 1px solid black; */
+     display: flex;
+     /* width: 20%;
+     height: auto; */
+     justify-content: center;
+     align-items: center;
+     text-align: center;
+     flex-direction: column;
+     letter-spacing: 2px;
+}
+
+.organizer-card>a{
+     font-size: 15px;
+}
+
+.organizer-card>p{
+     margin-top:5% ;
+     font-size: 20px;
+     color: black;
+}
+
+.organizer-links{
+     width: 45%;
+     display: flex;
+     justify-content: space-around;
+}
+
+.organizer-links>a>i{
+     font-size: 20px;
+     color: grey;
+}
+
+.organizer-link:hover{
+     transform: scale(1.2);
+     -webkit-transform: scale(1.2);
+     -moz-transform: scale(1.2);
+     -ms-transform: scale(1.2);
+     -o-transform: scale(1.2);
+}
+.organizer-links>a>i:hover{
+     color: black;
+}
+
 
 
 
