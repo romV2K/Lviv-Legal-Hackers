@@ -121,7 +121,7 @@ hr{
 }
 
 
-.organizers-grid{
+.organizer-grid{
      margin: 5% 10% 5% 10%;
      display: grid;
      grid-template-columns: repeat(auto-fit, minmax(270px,1fr)) ;
@@ -133,10 +133,7 @@ hr{
 
 
 .organizer-card{
-     /* border: 1px solid black; */
      display: flex;
-     /* width: 20%;
-     height: auto; */
      justify-content: center;
      align-items: center;
      text-align: center;
@@ -176,13 +173,40 @@ hr{
      color: black;
 }
 
+.partner-photo1{
+     width: 50%;
+     height: 70%;
+}
+.partner-photo2{
+     width: 20%;
+     height: auto;
+}
 
+.general-international-mass-partners-student-grid{
+     margin: 5% 5% 0% 5%;
+     display: grid;
+     grid-template-columns: repeat(auto-fit, minmax(270px,1fr)) ;
+     grid-gap: 1vw;
+     justify-content: center;
+     align-items: center;
 
+     
+}
 
-
-
-
-
+.international-partner-photo-block{
+     width: 100%;
+     display: flex;
+     height: auto;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+}
+.international-partner-photo-block>a{
+     margin-top: 5%;
+     color: rgb(219, 131, 99);
+     font-size: 25px;
+     letter-spacing:3.2px;
+}
 
 
 
