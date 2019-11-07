@@ -306,6 +306,20 @@ footer {
           left:20%;
           top:30%;
      }
+     .organizers>h1{
+          font-size: 30px;
+     }
+     .general-partners h1{
+          font-size: 30px;
+     }
+     .international-partners h1{
+          font-size: 30px;
+     }
+     .mass-media h1{
+          font-size: 30px;
+     }
+
+
 }
 
 @media (max-width:500px){
