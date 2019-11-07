@@ -19,7 +19,8 @@
      height:auto;
 }
 p,a{
-     font-family: 'Roboto',Arial,sans-serif;
+     font-family: 'Source Sans Pro', sans-serif;
+
 }
 
 ul>li>a{
@@ -116,7 +117,7 @@ hr{
      margin-top: 10%;
 }
 .organizers>h1{
-     font-family: 'Roboto',Arial,sans-serif;
+     font-family: 'Source Sans Pro', sans-serif;
      color: black;
      text-align: center;
      letter-spacing: 3.2px;
@@ -226,7 +227,8 @@ footer {
 .footer-text {
      color: rgb(114, 114, 114);
      margin-bottom: 20px;
-     font-family: 'Open Sans', sans-serif;
+     font-family: 'Source Sans Pro', sans-serif;
+
 }
 
 .comm-img {
