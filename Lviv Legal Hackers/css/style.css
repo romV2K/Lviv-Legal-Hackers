@@ -8,7 +8,7 @@
 }
 
 .nav-item>a{
-     color: rgb(78, 78, 78) !important;
+     color: rgb(0, 0, 0) !important;
 }
 
 .brand-block{
@@ -109,7 +109,7 @@ hr{
      background-image: none;
      width: 35%;
      height: auto;
-     color: black;
+     color: black;            
 }
 
 .organizers{
@@ -275,11 +275,6 @@ footer {
 }
 
 
-
-
-
-
-
 @media (max-width:990px){
      .nav-item>a{
           color: rgb(0, 0, 0) !important;
@@ -326,6 +321,98 @@ footer {
      .black-text-box{
           left:10%;
           top:15%;
+     }
+}
+@media (max-width:420px){
+     .main-text h6{
+          font-size: 10px;
+
+     }
+     .main-text h1{
+          font-size: 12.5px;
+          
+     }
+     .main-text h3{
+          font-size: 12px;
+          
+     }
+     .main-description p{
+          font-size: 16.5px;
+     }
+
+     .photo-lviv-legal-hackers img{
+          display: none;
+     }
+
+     .black-text-box{
+          position: relative;
+          left: 0%;
+          top:0%;
+          width: 100%;
+     }
+     nav{
+          position: relative !important;
+     }
+
+     .navbar-toggler-icon{
+          border: 1px solid black;
+          background-color: black;
+          border-radius: 7px;
+     }
+
+     .d-block{
+          width: 100%;
+
+     }
+     .carousel-control-next  img{
+          background-image: none;
+          width: 70%;
+          height: auto;                 
+     }
+
+     .carousel-control-prev  img{
+          background-image: none;
+          width: 70%;
+          height: auto;
+     }
+
+     .organizers>h1{
+          font-size: 25px;
+     }
+
+     .organizer-grid{
+          grid-gap: 50px;
+     }
+
+     .general-partners h1{
+          font-size: 25px;
+     }
+     .general-international-mass-partners-student-grid{
+          grid-gap: 25px;
+     }
+
+     .general-international-mass-partners-student-grid>div>img{
+          width: 75%;
+     }
+     
+
+     .international-partners h1{
+          font-size: 25px;
+     }
+
+     .mass-media h1{
+          font-size: 25px;
+     }
+
+     .partner-photo2{
+          width: 50%
+     }
+     .comm-text-block p{
+          font-size: 30px;
+     }
+
+     .international-partner-photo-block a{
+          font-size: 20px;
      }
 }
 
