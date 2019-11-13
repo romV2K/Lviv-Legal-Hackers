@@ -56,6 +56,8 @@ ul>li>a{
      text-align: center;
      
 }
+
+
 .main-text>h3{
      color: white;
      font-weight: 200;
@@ -81,7 +83,7 @@ z-index: 0;
 
 .black-text-box{
      color: white;
-     width: 400px;
+     width: 600px;
      height: auto;
      background-color: black;
      padding: 20px;
@@ -89,6 +91,10 @@ z-index: 0;
      z-index: 1;
      left:50%;
      top:60%;
+}
+.black-text-box>p{
+     font-size: 20px;
+     font-weight: 300;
 }
 
 .d-block {
@@ -275,7 +281,16 @@ footer {
 .comm-text-block>a:hover {
      background-color: #cc1717;
 }
+#telegram-invite-text, .telegram-invite{
+     display: none;
+}
 
+@media (max-width:1200px){
+     .black-text-box{
+          left:40%;
+          top:50%;
+     }
+}
 
 @media (max-width:990px){
      .nav-item>a{
@@ -303,8 +318,12 @@ footer {
           font-size: 15px;
      }
      .black-text-box{
-          left:20%;
-          top:30%;
+          left: 20%;
+          top: 30%;
+          width: 400px
+     }
+     .black-text-box>p{
+          font-size: 15px;
      }
      .organizers>h1{
           font-size: 30px;
@@ -336,35 +355,77 @@ footer {
      }
      .black-text-box{
           left:10%;
-          top:15%;
+          top:25%;
      }
 }
 @media (max-width:420px){
-     .main-text h6{
-          font-size: 10px;
 
-     }
-     .main-text h1{
-          font-size: 12.5px;
+     .navbar{
+          height: 55px;
           
      }
+     .navbar-toggler{
+          padding-right: 0px ;
+     }
+     .brand>img {
+          width: 105px;
+          height: 40px;
+     }
+     .collaps-items-set-middle{
+          background-color: rgb(255, 255, 255);
+     }
+     .main-text h6{
+          margin-bottom: 10%;
+          font-size: 20px;
+          /* display: none; */
+     }
+     #telegram-invite-text{
+          display: block;
+          text-align: center;
+          margin-top: 10%;
+     }
+     .telegram-invite{
+          display: block;
+          margin-top: 10%;
+          border-radius: 30px;
+          width: auto;
+          height: auto;
+          padding: 10px 10px 10px 10px;
+          border: 3px solid white;
+          -webkit-border-radius: 30px;
+          -moz-border-radius: 30px;
+          -ms-border-radius: 30px;
+          -o-border-radius: 30px;
+}
+
+     .telegram-invite>a>p{
+          color: white;
+          margin: 0px;
+          font-weight: bold;
+     }
+     .main-text h1{
+          font-size: 30px;
+     }
      .main-text h3{
-          font-size: 12px;
+          font-size: 20px;
+          display: none;
           
      }
      .main-description p{
-          font-size: 16.5px;
+          font-size: 15.5px;
+          width: 140%;
      }
-
      .photo-lviv-legal-hackers img{
-          display: none;
-     }
-
-     .black-text-box{
-          position: relative;
-          left: 0%;
-          top:0%;
+          /* display: none; */
           width: 100%;
+          overflow: hidden;
+          height: auto;
+     }
+     .black-text-box{
+          position: absolute;
+          left: 8%;
+          top: 35%;
+          width: 85%;
      }
      nav{
           position: relative !important;
@@ -394,6 +455,7 @@ footer {
 
      .organizers>h1{
           font-size: 25px;
+          margin: 0% 5% 0% 5%;
      }
 
      .organizer-grid{
@@ -402,6 +464,7 @@ footer {
 
      .general-partners h1{
           font-size: 25px;
+          margin: 0% 5% 0% 5%;
      }
      .general-international-mass-partners-student-grid{
           grid-gap: 25px;
@@ -414,21 +477,64 @@ footer {
 
      .international-partners h1{
           font-size: 25px;
+          margin: 0% 5% 0% 5%;
      }
 
      .mass-media h1{
           font-size: 25px;
+          margin: 0% 5% 0% 5%;
      }
 
      .partner-photo2{
           width: 50%
      }
+     .comm-text-block{
+          margin-bottom: 0px;
+     }
      .comm-text-block p{
           font-size: 30px;
+
      }
 
      .international-partner-photo-block a{
           font-size: 20px;
+     }
+}
+@media(max-width:375px) {
+     .main-text h6{
+          margin-bottom: 10%;
+          font-size: 17px;
+          /* display: none; */
+     }
+     .main-text h1{
+          font-size: 23px;
+     }
+
+     #telegram-invite-text{
+          margin-bottom: 0px;
+     }
+     .black-text-box{
+          position: absolute;
+          top: 28%;
+     }
+
+}
+
+@media(max-width:320px) {
+     .main-text h6{
+          margin-bottom: 10%;
+          font-size: 15px;
+          /* display: none; */
+     }
+     .main-text h1{
+          font-size: 17px;
+     }
+     #telegram-invite-text{
+          margin-bottom: 0px;
+     }
+     .black-text-box{
+          position: absolute;
+          top: 22%;
      }
 }
 
